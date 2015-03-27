@@ -1,0 +1,5 @@
+try {
+    project.catkin.tree.generateMessageArtifact(project, 'ftag2_core')
+} catch (NullPointerException e) {
+    println("Couldn't find ftag2_core on the ROS_PACKAGE_PATH")
+}
